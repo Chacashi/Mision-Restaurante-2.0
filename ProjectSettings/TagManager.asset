@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Resepcion
+  - PapaCruda
+  - Cuchillo
+  - Fondo oscuro carne
+  - Cebolla
+  - Guarnicion aromatica
+  - Aji amarillo
+  - Tomate
+  - Lomo fino crudo
+  - Arroz
+  - Olla
+  - Sarten
+  - Papa en bastones
+  - Lomo fino en pedazos
+  - aji amarrillo en juliana
+  - Tomate en juliana
+  - cebolla en gajos
+  - Lomo salteado con verduras
+  - Nage
+  - culantro
+  - Premix
+  - Papas fritas
+  - Lomo Salteado
+  - arros graneado
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
