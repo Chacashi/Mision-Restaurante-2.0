@@ -12,9 +12,11 @@ public class CuyMovie : MonoBehaviour
     public float Speed;
     bool Active;
     bool _confirmar;
+    Animator _compAnimator;
     void Awake()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
+        _compAnimator = GetComponent<Animator>();
     }
     void FixedUpdate()
     {
@@ -31,6 +33,7 @@ public class CuyMovie : MonoBehaviour
     {
         if (collision.collider.tag =="Resepcion")
         {
+            _compAnimator.SetTrigger("Parado");
             _confirmar = true;
             Cuynube.SetActive(true);
             CuyDialogo(0);
