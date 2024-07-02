@@ -30,7 +30,7 @@ public class ControlerIntroduccion : MonoBehaviour
                 }
             }
         }
-        if (Cuy.Confirmar == false&&index>1)
+        if (Cuy.Confirmar == false&&index>0)
         {
             Buton.SetActive(true);
         }
