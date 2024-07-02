@@ -10,6 +10,7 @@ public class CuyMovie : MonoBehaviour
     public EfectoTexto TextoCuy;
     public GameObject Cuynube;
     public float Speed;
+    public Animator animacionPlayer;
     bool Active;
     bool _confirmar;
     Animator _compAnimator;
@@ -53,6 +54,7 @@ public class CuyMovie : MonoBehaviour
         }
         if (n == 4)
         {
+            animacionPlayer.SetTrigger("Sorprendido");
             TextoCuy.Inprimir("Para tu buena suerte no. Tengo la solución para poder salvar tu restaurante");
         }
         if (n==6)

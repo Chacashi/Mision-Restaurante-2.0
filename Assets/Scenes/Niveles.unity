@@ -482,7 +482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CambiarScene: {fileID: 739117155}
   Barrido: {fileID: 609711900}
-  Scena: Nivel1
+  Scena: Introduccion
 --- !u!1 &213360854
 GameObject:
   m_ObjectHideFlags: 0

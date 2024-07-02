@@ -8,6 +8,11 @@ public class PlayerControler : MonoBehaviour
     public GameObject Nube;
     public EfectoTexto Texto;
     public GameObject NubeCuy;
+    Animator animator;
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
     public void Dialogo(sbyte n)
     {
         Nube.SetActive(true);
@@ -25,11 +30,12 @@ public class PlayerControler : MonoBehaviour
         }
         if (n==5)
         {
-            Texto.Inprimir("Okey? Y que tengo que hacer?");
+            Texto.Inprimir("¿Okey? ¿Y qué tengo que hacer?");
         }
         if (n==7)
         {
-            Texto.Inprimir("Entonces de verdad eres un dios para saber todo eso");
+            animator.SetTrigger("Feliz");
+            Texto.Inprimir("¿Entonces me enseñarás a cocinar?");
         }
         NubeCuy.SetActive(false);
     }

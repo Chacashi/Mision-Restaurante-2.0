@@ -150,12 +150,19 @@ public class GameManagerControl : MonoBehaviour
     {
         Time.timeScale = 0;
     }
-    void ReiniciarCocina()
+    public void LimpiarTablas()
     {
-        for(int i = 0;i<QuantityIngredientes.Length;++i)
+        for(sbyte i = 0; i < Hornillas.Length; ++i)
         {
-            QuantityIngredientes [i] = false;
-            Ingrediente[i].SetActive(false);
+            Hornillas[i].Limpiar();
+        }
+        for(sbyte i = 0; i < Mesas.Length; ++i)
+        {
+            Mesas[i].Limpiar();
+        }
+        for(sbyte i = 0;i<Emplado.Length; ++i)
+        {
+            Emplado[i].Limpiar();
         }
     }
 }

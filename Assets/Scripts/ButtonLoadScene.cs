@@ -9,7 +9,7 @@ public class ButtonLoadScene : MonoBehaviour
     public ControlerBarrido Barrido;
     public string Scena;
     Button _button;
-    private void Start()
+    private void Awake()
     {
         _button = GetComponent<Button>();
         _button.onClick.AddListener(() => CuandoCliqueo());
